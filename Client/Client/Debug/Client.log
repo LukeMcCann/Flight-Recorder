@@ -1,0 +1,14 @@
+﻿  DataSim.cpp
+c:\users\newt-\documents\visual studio 2015\projects\client\client\datasim.cpp(19): error C2143: syntax error: missing ';' before 'DataSim::output'
+c:\users\newt-\documents\visual studio 2015\projects\client\client\datasim.cpp(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\newt-\documents\visual studio 2015\projects\client\client\datasim.cpp(20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\newt-\documents\visual studio 2015\projects\client\client\datasim.cpp(20): error C2511: 'int DataSim::output(int)': overloaded member function not found in 'DataSim'
+  c:\users\newt-\documents\visual studio 2015\projects\client\client\datasim.h(9): note: see declaration of 'DataSim'
+c:\users\newt-\documents\visual studio 2015\projects\client\client\datasim.cpp(23): error C2352: 'DataSim::speedsim': illegal call of non-static member function
+  c:\users\newt-\documents\visual studio 2015\projects\client\client\datasim.h(17): note: see declaration of 'DataSim::speedsim'
+  Client.cpp
+c:\users\newt-\documents\visual studio 2015\projects\client\client\client.cpp(37): error C2672: 'DataSim::output': no matching overloaded function found
+c:\users\newt-\documents\visual studio 2015\projects\client\client\client.cpp(37): error C2783: 'T DataSim::output(int)': could not deduce template argument for 'T'
+  c:\users\newt-\documents\visual studio 2015\projects\client\client\datasim.h(15): note: see declaration of 'DataSim::output'
+c:\users\newt-\documents\visual studio 2015\projects\client\client\client.cpp(63): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
