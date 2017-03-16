@@ -1,0 +1,4 @@
+﻿  Server.cpp
+c:\users\newt-\documents\visual studio 2015\projects\server\server\server.cpp(56): warning C4018: '<': signed/unsigned mismatch
+  Server.vcxproj -> C:\Users\Newt-\Documents\Visual Studio 2015\Projects\Server\Debug\Server.exe
+  Server.vcxproj -> C:\Users\Newt-\Documents\Visual Studio 2015\Projects\Server\Debug\Server.pdb (Full PDB)
