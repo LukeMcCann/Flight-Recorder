@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Client">
+      <UniqueIdentifier>{a6cfe9af-f250-431f-a335-d7a091d45d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Client">
+      <UniqueIdentifier>{e7a1a7d3-5001-4db5-b3df-93caa10e2d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Client\Network">
+      <UniqueIdentifier>{63098a80-6d32-4532-aa88-a9ed594405de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Client\Network">
+      <UniqueIdentifier>{5e77a543-9a71-444c-a838-8009807db381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Client\ControlObjects">
+      <UniqueIdentifier>{63682d59-047b-4f1f-932e-e3fa2ffb27f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Client\ControlObjects\FileHandlers">
+      <UniqueIdentifier>{15d86d8b-f00b-4139-9ecb-ebe29bd89410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Client\ControlObjects">
+      <UniqueIdentifier>{d34688a5-9641-4f13-b4fc-3fe16922a0cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Client\ControlObjects\FileHandlers">
+      <UniqueIdentifier>{05ecfc93-24a2-4aa8-961d-31c7b62d8d42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Simulation">
+      <UniqueIdentifier>{7daa8ea8-734c-4164-94da-b91bc4805091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Simulation">
+      <UniqueIdentifier>{ce66f80b-ad62-4ad1-9970-c4becb8cec21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Simulation\Sensors">
+      <UniqueIdentifier>{8ebb69fe-9549-4603-a0bd-da39075dd97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Simulation\Sensors">
+      <UniqueIdentifier>{93db8283-6317-41e6-8ae8-8d7e8484a0e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Simulation\Simulators">
+      <UniqueIdentifier>{88a8e84f-21fc-4a35-b419-7ddfbe74bb8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Simulation\Simulators">
+      <UniqueIdentifier>{0025a506-3bb7-41a3-b624-728f072f1a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Simulation\Generators">
+      <UniqueIdentifier>{47c350d8-0ac5-405f-96db-3117dc61e0d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Simulation\Generators">
+      <UniqueIdentifier>{96ac606f-69aa-4469-b22e-c6517a851c5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files\Client\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientNetwork.h">
+      <Filter>Header Files\Client\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkData.h">
+      <Filter>Header Files\Client\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkServices.h">
+      <Filter>Header Files\Client\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomGenerator.h">
+      <Filter>Header Files\Simulation\Generators</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensor.h">
+      <Filter>Header Files\Simulation\Sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="Speedometer.h">
+      <Filter>Header Files\Simulation\Sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedSim.h">
+      <Filter>Header Files\Simulation\Simulators</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientStart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files\Client\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientNetwork.cpp">
+      <Filter>Source Files\Client\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkServices.cpp">
+      <Filter>Source Files\Client\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomGenerator.cpp">
+      <Filter>Source Files\Simulation\Generators</Filter>
+    </ClCompile>
+    <ClCompile Include="Sensor.cpp">
+      <Filter>Source Files\Simulation\Sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="Speedometer.cpp">
+      <Filter>Source Files\Simulation\Sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedSim.cpp">
+      <Filter>Source Files\Simulation\Simulators</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
